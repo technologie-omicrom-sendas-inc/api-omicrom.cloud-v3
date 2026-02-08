@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Secular+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+    /* --main-font-family: 'Open Sans', sans-serif; */
+    --main-font-family: "Ubuntu";
+    /* --heading-font-family: 'Playfair Display', serif; */
+    /* --heading-font-family: 'Montserrat', sans-serif; */
+    --heading-font-family: "Ubuntu", sans-serif;
+    --main-color: #0759ad;
+    --color-blue-2: #30adef;
+    --bg-color: #d8dfe3;
+    --bg-textarea: rgba(13, 110, 253, 0.25);
+    --bg-textare: #eef7ff;
+    --link-blue-2: #0a58ca;
+    --link-blue: #0e2e67;
+    --main-blue-dark: #03365a;
+    --optional-color: #2e3ab8;
+    --white-color: #ffffff;
+    --black-color: #020202;
+    --color-gray: #6b7c8f;
+    --color-yellow: #ffc107;
+    --color-green: #2a852e;
+    --color-green-2: #1f9324;
+    --color-green-3: #06bd0e;
+    --color-red: #d5182a;
+    --color-border: #e1e1e1;
+    --color-noise: #212529;
+    --paragraph-color: #484847;
+
+    --green-color: #166534;
+    --green-color-01: #e8f5e9;
+    --green-color-02: #1f9324;
+    --green-color-03: #27ae60;
+    --green-color-04: #2a852e;
+
+    --main-color-04: #d42a0410;
+    --orange-color: #d42b04;
+
+    --font-size: 16px;
+    --transition: 0.4s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font-family);
+    word-break: break-word!important;
+}
+
+a {
+    color: var(--link-blue-2);
+    text-decoration: none;
+    word-break: break-word!important;
+    cursor: pointer;
+    transition: .3s;
+}
+a:hover {
+    color: var(--main-blue-dark);
+    transition: .3s;
+}
+

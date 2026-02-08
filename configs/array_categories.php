@@ -1,0 +1,28 @@
+<?php
+    $array_categories = [
+        "arts",
+        "video",
+        "education",
+        "sports",
+        "religion",
+        "health",
+        "pro_tools",
+        "world_news",
+        "business",
+        "media",
+        "lifestyle",
+        "culture",
+        "music",
+        "science",
+        "politics",
+        "entertainment",
+        "finances",
+        "technology",
+        "environment",
+        "history",
+        "livres",
+        "society",
+        "crime",
+        "flash_news"
+    ];
+?> 
